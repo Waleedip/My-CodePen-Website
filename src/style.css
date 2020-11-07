@@ -1,0 +1,205 @@
+@media(min-width:468px){
+.showcase{
+	display:flex;	
+}
+
+.section-a{
+	display:flex;
+	justify-content: center;
+	
+}	
+  .section-b{
+	display:flex;
+	justify-content: space-between;
+	
+}	
+}
+
+body{
+	margin: 0;
+	background: #222;
+	font-family: 'Work Sans', sans-serif, Arial, "Helvetica Neue", Helvetica;
+	font-weight: 800;
+	font-size:17px;
+	color:#926239;
+	line-height:1.6;
+}
+
+.container {
+	display:flex;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+header{
+	background: #55d64a;
+  position: fixed;
+  width: 100%;
+}
+
+
+.logo{
+	float: left;
+}
+nav{
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 15px 30px;
+
+	position: relative;
+	
+}
+
+nav ul li a{
+	color:#444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+
+nav ul li a:hover {
+	color: #000;
+}
+nav ul li a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: #444;
+
+
+	position: absolute;
+	bottom: 0;
+	width: 0%;
+
+	transition: all ease-out-in 250ms;
+}
+
+nav ul li a:hover::before{
+	width: 100%;
+}
+
+#showcase{
+	background-image: url("https://waleed-landing-page.s3.eu-west-3.amazonaws.com/images/Yemen-Mountain.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align: center;
+	padding:0 200px;
+}
+
+#showcase h1{
+  margin-top: 80px;
+	font-size: 50px;
+	line-height:1.2;
+	color:#444;
+	background-color: #ffffff;
+}
+#showcse p{
+	font-size: 30px
+	
+}
+
+#showcase .button {
+	font-size: 18px;
+	text-decoration: none;
+	color:#926239;
+	border:#926239 1px solid;
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+#showcase .button:hover{
+	background:#926239;
+	color:#fff;
+}
+#showcase .email-box{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+#showcase .tbox{
+  height: 20px;
+  border:#926239 1px solid;
+	padding:10px 20px;
+	border-radius:10px;
+	margin-top:20px;
+}
+
+#section-a{
+	padding:20px;
+	background: #926239;
+	color: #fff;
+	text-align: center;
+}
+
+a#Outside-link {
+  color: #ffffff;
+}
+
+a#Outside-link:visited {
+  color: #fffacd;
+}
+
+a#Outside-link:hover {
+  color: #e4f1fe;
+}
+.icon {
+  margin: 20px auto;
+}
+
+#section-b{
+	padding:20px;
+	background: #f4f4f4;
+	text-align: center;
+  display: flex:
+  justify-content: flex-start;
+}
+
+footer {
+  padding: 10px;
+  background: #926239;
+	color: #000;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 0px; 
+}
+
+footer > ul > li {
+  padding: 0 15px;
+}
+
+footer > span {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin-top: -10px;
+  padding:0 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
